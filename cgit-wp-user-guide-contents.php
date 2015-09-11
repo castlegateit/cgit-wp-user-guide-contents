@@ -58,6 +58,7 @@ add_filter('cgit_user_guide_sections', function($sections) {
         $section = '<span id="' . $id
             . '" class="cgit-user-guide-contents-anchor"></span>'
             . $section . $back;
+        $number++;
 
     }
 
